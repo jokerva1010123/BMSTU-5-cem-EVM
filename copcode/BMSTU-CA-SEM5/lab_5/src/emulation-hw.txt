@@ -1,0 +1,55 @@
+Found Platform
+Platform Name: Xilinx
+INFO: Reading /iu_home/iu7126/workspace3/hls_acc_lab_system_hw_link/Emulation-HW/binary_container_1.xclbin
+Loading: '/iu_home/iu7126/workspace3/hls_acc_lab_system_hw_link/Emulation-HW/binary_container_1.xclbin'
+Trying to program device[0]: xilinx_u200_xdma_201830_2
+INFO: [HW-EMU 01] Hardware emulation runs simulation underneath. Using a large data set will result in long simulation times. It is recommended that a small dataset is used for faster execution. The flow uses approximate models for DDR memory and interconnect and hence the performance data generated is approximate.
+INFO::[ Vitis-EM 22 ] [Time elapsed: 2 minute(s) 11 seconds, Emulation time: 0.0271371 ms]
+Data transfer between kernel(s) and global memory(s)
+var006_no_pragmas_1:m_axi_gmem-DDR[1]          RD = 0.000 KB               WR = 0.000 KB        
+var006_pipe_unroll_1:m_axi_gmem-DDR[1]          RD = 0.000 KB               WR = 0.000 KB        
+var006_pipelined_1:m_axi_gmem-DDR[1]          RD = 0.000 KB               WR = 0.000 KB        
+var006_unrolled_1:m_axi_gmem-DDR[1]          RD = 0.000 KB               WR = 0.000 KB        
+
+INFO::[ Vitis-EM 22 ] [Time elapsed: 7 minute(s) 13 seconds, Emulation time: 0.114581 ms]
+Data transfer between kernel(s) and global memory(s)
+var006_no_pragmas_1:m_axi_gmem-DDR[1]          RD = 0.000 KB               WR = 0.000 KB        
+var006_pipe_unroll_1:m_axi_gmem-DDR[1]          RD = 0.000 KB               WR = 0.000 KB        
+var006_pipelined_1:m_axi_gmem-DDR[1]          RD = 0.000 KB               WR = 0.000 KB        
+var006_unrolled_1:m_axi_gmem-DDR[1]          RD = 0.000 KB               WR = 0.000 KB        
+
+Device[0]: program successful!
+|-------------------------+-------------------------|
+| Kernel                  |    Wall-Clock Time (ns) |
+|-------------------------+-------------------------|
+| var001_no_pragmas       |             42016715918 |
+|-------------------------+-------------------------|
+| var001_urolled          |             40017638958 |
+|-------------------------+-------------------------|
+| var001_pipelined        |             36011311502 |
+|-------------------------+-------------------------|
+| var001_pipe_unroll      |             34015147242 |
+|-------------------------+-------------------------|
+Note: Wall Clock Time is meaningful for real hardware execution only, not for emulation.
+Please refer to profile summary for kernel execution time for hardware emulation.
+TEST PASSED.
+INFO::[ Vitis-EM 22 ] [Time elapsed: 12 minute(s) 15 seconds, Emulation time: 0.204923 ms]
+Data transfer between kernel(s) and global memory(s)
+var006_no_pragmas_1:m_axi_gmem-DDR[1]          RD = 8.000 KB               WR = 4.000 KB        
+var006_pipe_unroll_1:m_axi_gmem-DDR[1]          RD = 8.000 KB               WR = 4.000 KB        
+var006_pipelined_1:m_axi_gmem-DDR[1]          RD = 8.000 KB               WR = 4.000 KB        
+var006_unrolled_1:m_axi_gmem-DDR[1]          RD = 8.000 KB               WR = 4.000 KB        
+
+INFO::[ Vitis-EM 22 ] [Time elapsed: 17 minute(s) 18 seconds, Emulation time: 0.292367 ms]
+Data transfer between kernel(s) and global memory(s)
+var006_no_pragmas_1:m_axi_gmem-DDR[1]          RD = 8.000 KB               WR = 4.000 KB        
+var006_pipe_unroll_1:m_axi_gmem-DDR[1]          RD = 8.000 KB               WR = 4.000 KB        
+var006_pipelined_1:m_axi_gmem-DDR[1]          RD = 8.000 KB               WR = 4.000 KB        
+var006_unrolled_1:m_axi_gmem-DDR[1]          RD = 8.000 KB               WR = 4.000 KB        
+
+INFO::[ Vitis-EM 22 ] [Time elapsed: 19 minute(s) 46 seconds, Emulation time: 0.335542 ms]
+Data transfer between kernel(s) and global memory(s)
+var006_no_pragmas_1:m_axi_gmem-DDR[1]          RD = 8.000 KB               WR = 4.000 KB        
+var006_pipe_unroll_1:m_axi_gmem-DDR[1]          RD = 8.000 KB               WR = 4.000 KB        
+var006_pipelined_1:m_axi_gmem-DDR[1]          RD = 8.000 KB               WR = 4.000 KB        
+var006_unrolled_1:m_axi_gmem-DDR[1]          RD = 8.000 KB               WR = 4.000 KB        

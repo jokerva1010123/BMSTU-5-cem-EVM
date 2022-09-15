@@ -1,0 +1,7 @@
+// Adder function
+always @(posedge s_axis_aclk) begin
+  for (i = 0; i < LP_NUM_LOOPS; i = i + 1) begin
+    //d2_tdata[i*C_ADDER_BIT_WIDTH+:C_ADDER_BIT_WIDTH] <= d1_tdata[C_ADDER_BIT_WIDTH*i+:C_ADDER_BIT_WIDTH] + d1_constant;
+    d2_tdata[i] <= (d1_tdata[i] & 32'h76543210);
+  end
+end

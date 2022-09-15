@@ -1,0 +1,1 @@
+v++ -l -t hw -o /iu_home/iu7126/workspace1/vinc.xclbin -f xilinx_u200_xdma_201830_2 /iu_home/iu7126/workspace1/Alveo_lab1_kernels/vivado_rtl_kernel/rtl_kernel_wizard_0_ex/exports/rtl_kernel_wizard_0.xo --config /iu_home/iu7126/workspace1/Alveo_lab1_kernels/vivado_rtl_kernel/alveo_lab1.cfg

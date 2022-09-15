@@ -1,0 +1,1 @@
+xgdb --args rtl_kernel_wizard_0_host_example.exe vinc.xclbin
